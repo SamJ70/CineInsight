@@ -1,0 +1,509 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.884);
+
+}
+.header{
+    box-shadow: 20px;
+    display: flex;
+    justify-content: space-around;
+height: 40px;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.904);
+}
+.cineinsight{
+    color: rgb(255, 23, 23);
+    font-size: 30px;
+    font-weight: 700;
+}
+.loginbutton{
+    text-decoration: none;
+    font-size: 20px;
+    height: 25px;
+    width: 70px;
+    text-align: center;
+    border-radius: 10%;
+    background-color: rgb(250, 10, 10);
+color: whitesmoke;
+
+}
+.loginbutton:hover{
+    background-color:whitesmoke ;
+color: rgb(235, 13, 13);
+
+}
+.background{
+    height: 80vh;
+    width:100vw;
+    background-image: url("background.jpg");
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+    filter: brightness(133%);
+}
+.free{
+    background: none;
+    color: white ;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+#em{
+    height: 30px;
+    width:350px;
+    color: aliceblue;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2.5px solid whitesmoke ;
+}
+.form{
+    
+    
+    
+    background-color: transparent;
+}
+#button{
+visibility: visible;
+    height: 31px;
+    margin: 0;
+    width: 100px;
+    background-color: rgb(255, 31, 31);
+position: relative;
+    bottom: 2.8px;
+    border: 2.5px solid whitesmoke;
+    border-radius: 10%;
+    color: white;
+}
+i{
+    background-color: transparent;
+    
+}
+#otptext{
+    height: 30px;
+    width:350px;
+    color: aliceblue;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1.5px solid whitesmoke ;
+    position: relative;
+    right: 52px;
+    visibility: hidden;
+}
+#otpbtn{
+    height: 31px;
+    margin: 0;
+    width: 100px;
+    background-color: rgb(247, 2, 2);
+position: relative;
+    bottom: 2.8px;
+    border: 1.5px solid whitesmoke;
+ visibility: hidden;  
+}
+.enjoy{
+    margin-top: 10px;
+ height: 50vh;
+ width: 100vw;
+    text-align: center;
+justify-content: center;
+background-image: url("jurrasic.jpg");
+background-size: cover;
+align-items: center;
+}
+.enjoytext1{
+    align-items: center;
+    color: whitesmoke;
+    font-size:35px;
+    background-color: transparent;
+}
+.enjoytext2{
+    font-size: 30px;
+    align-items: center;
+    color: whitesmoke;
+    background-color: transparent;
+}
+#j1s{
+    background-color: transparent;
+    font-size: 30px;
+
+}
+#uname{
+    background-color: transparent;
+color: whitesmoke;
+height: 30px;
+width: 500px;
+border: 2px solid white;
+font-size: 20px;
+}
+#upassword{
+    color: whitesmoke;
+    margin-top: 20px;
+    height: 30px;
+width: 500px;
+    background-color: transparent;
+    border: 2px solid white;
+position: relative;
+font-size: 20px;
+top: 15px;
+}
+#ucpassword{
+    margin-top: 20px;
+    color: whitesmoke;
+    height: 30px;
+    font-size: 20px;
+width: 500px;
+    background-color: transparent;
+    border: 2px solid white;
+position: relative;
+top: 30px;
+}
+.f1{
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+}
+.create{
+    color: white;
+    background-color: red;
+    height: 30px;
+    width: 120px;
+font-size: 20px;
+position: relative;
+top: 35px;
+border: 1.5px solid white;
+}
+.contact{
+    color: white;
+    font-size: 20px;
+}
+.log
+{
+    text-align: center;
+    background-color: transparent;
+}
+#usertxt{
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 25px;
+    width: 450px;
+height: 35px;
+position: relative;
+top: 20vh;
+}
+#passtxt{
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 25px;
+    color: white;
+    width: 450px;
+    height: 35px;
+    visibility: visible;
+position: relative;
+top: 25vh;
+}
+.loginbtn{
+font-size: 20px;   
+height: 30px;
+width: 100px;
+color: white;
+background-color: red;
+border: 1.5px solid white;
+position: relative;
+top: 30vh;
+}
+.loginbtn:hover{
+    color: red;
+    background-color: white;
+    
+}
+.loginbtn:active{
+background-color: black;
+color: red;    
+}
+#log{
+    font-size: 52px;
+    text-align: center;
+    background-color: transparent;
+    color: whitesmoke;
+    font-weight: 500;
+position: relative;
+top: 50px;
+}
+.signupbtn{
+    text-decoration: none;
+    font-size: 20px;
+    height: 25px;
+    width: 70px;
+    text-align: center;
+    border-radius: 10%;
+    background-color: rgb(250, 10, 10);
+color: whitesmoke;
+   
+}
+.signupbtn:active{
+    background-color: black;
+    color: red;
+}
+.signupbtn:hover{
+    color: rgb(250, 10, 10);
+background-color: whitesmoke;
+   
+}
+#wel{
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    height: 25px ;
+    width: 85px;
+    border-radius: 5%;
+}
+#wel:hover{
+    color: red;
+    background-color: white;
+}
+#search{
+    color: wheat;
+    width: 230px;
+    height: 25px;
+    
+    font-size: 20px;
+    border: 1px solid gold;
+    
+}
+#m1
+{
+    width: 100vw;
+    height: 70vh;
+    position: relative;
+    top: 7px;
+}
+#a1{
+    width: 92vw;
+    height: 70vh;
+    position: relative;
+    left: 60px;
+    }
+    #rightnext{
+        color: gold;
+        font-size: 40px;
+        position: relative;
+        top: -47vh;
+        left: 97vw;
+        background-color: transparent;
+        z-index: 2;
+    }
+    #rightnext:hover{
+    color: red;
+    }
+    #leftnext{
+        color: gold;
+        font-size: 40px;
+        position: relative;
+        top: -47vh;
+        right: 10px;
+        background-color: transparent;
+        z-index: 2;
+        
+    }
+    #leftnext:hover{
+        color: red;
+    }
+    #play{
+        font-size: 100px;
+        z-index: 2;
+        position: relative;
+        top: -28vh;
+        right: -10vw;
+        color: wheat;
+        background: transparent;
+      }
+    #play:hover{
+        color: red;
+    }
+    #playt{
+        font-size: 70px;
+        color: wheat;
+        z-index: 2;
+        position: relative;
+        bottom: 44vh;
+        left: 23vw;
+        background-color: transparent;
+    }
+    #hc1{
+        z-index: 3;
+        font-size: 10px;
+        color: wheat;
+        background-color: transparent;
+    }   
+    #hc2{
+        z-index: 3;
+        font-size: 10px;
+        color: gray;
+        background-color: transparent;
+        
+    }
+    #hc3{
+        z-index: 3;
+        font-size: 10px;
+        color: gray;
+        background-color: transparent;
+    }
+    #hc4{
+        z-index: 3;
+        font-size: 10px;
+        color: gray;
+        background-color: transparent;
+    }
+    
+    #hcholder{
+        background-color: transparent;
+        display: flex;
+        justify-content:space-around;
+        width: 25vw;
+        position: relative;
+        top: -38vh;
+        right: -38vw;
+    }
+    #vid{
+        height: 70vh;
+        width: 100vw;
+    }
+    #videplayer{
+        font-size: 50px;
+        color: white;
+    }
+    .ml{
+        color: wheat;
+
+        }
+    #menulist{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        width: 25vw;
+        font-size: 20px;
+        font-weight: 500;
+    }
+    #profile{
+     font-size: 15px;
+        color: gold;
+    }
+    #profname{
+        color: goldenrod;
+    }
+    .fa-solid fa-circle-user
+    {
+        font-size: 30px;
+    }
+.fa-solid fa-caret-down{
+    font-size:10px;
+}
+#pb{
+    color: goldenrod;
+    font-size: 15px;
+}
+#pb:hover{
+    color: red;
+    }
+#profpic{
+    font-size: 25px;
+}
+#prof{
+    color: white;
+    background-color: black;
+    z-index: 4;
+    border: 1px solid wheat;
+    width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+#pro{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#movcontainer{
+    width: 18vw;
+    height: 34vh;
+    position: relative;
+    top: -30vh;
+    margin: 40px;
+}
+#home2{
+    color: wheat;
+
+    font-weight: 600;
+}
+#Topmovies{
+    color: wheat;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+}
+#Trending{
+    color: wheat;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+}
+#Series{
+    color: wheat;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+}
+#movcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+#a1{
+    border: 1px solid gold;
+    filter: brightness(1);
+    filter: saturate(1.5);
+}
+#loader{
+    display: none;
+    border-left: 2px solid white;
+    animation: spin 1s linear infinite;
+height: 10px;
+width: 10px;
+border-radius: 50%;
+position: relative;
+left: 50vw;
+}
+@keyframes spin{
+ 0%{transform:rotate(0deg) ;}
+ 100%{transform: rotate(360deg);}  
+}
+#profbox{
+    color: white;
+   background-color: black;
+   z-index: 8;
+   width: 10vw;
+   border: 1px wheat solid;
+   position: absolute;
+   top: 7vh;
+  left: 88vw;
+  display: none;
+}
+body{
+    width: 100vw;
+}
+#Favourite{
+    color: wheat;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+
+}
